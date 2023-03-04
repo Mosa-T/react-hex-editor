@@ -122,10 +122,10 @@ const HexByte = ({
       style={style}
     >
       <span className={classNames.nybbleHigh}>
-        {value != null ? ((value >>> 4).toString(16); style={byte: {color:"red"}}) : <>&nbsp;</>}
+        {value != null ? ((value >>> 4).toString(16); style={color:"red"}) : <>&nbsp;</>}
       </span>
       <span className={classNames.nybbleLow}>
-        {value != null ? ((value & 0xf).toString(16); style={byte: {color:"red"}}) : <>&nbsp;</>}
+        {value != null ? ((value & 0xf).toString(16); style={color:"red"}) : <>&nbsp;</>}
       </span>
     </div>
   );
