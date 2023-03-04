@@ -1,5 +1,5 @@
 {
-  "name": "@Mosa-T/react-hex-editor",
+  "name": "react-hex-editor",
   "description": "View and edit binary data in React.",
   "version": "0.3.0",
   "license": "ISC",
